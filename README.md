@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-africacompliancedata-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://africacompliancedata.com/
+Africa Compliance Data provides a public API and dataset covering holidays, business days, VAT rates, withholding tax, tax identification formats, filing deadlines, payroll tax and social‑security rates for all 54 African countries, sourced from official government publications and updated regularly.
+
+**Areas:** Africa · Compliance · Tax · Holidays · Data · API
+
+## africacompliancedata-com on APIs.io
+
+Everything profiled for africacompliancedata-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/africacompliancedata-com/](https://apis.io/providers/africacompliancedata-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [africacompliancedata-com Countries API](https://apis.io/apis/africacompliancedata-com/africacompliancedata-com-countries-api/) — Coverage, full country profiles, your account and your Pro country pack. All plans (tax sections of the profile: Compliance, and Pro for the countries of…
+- [africacompliancedata-com Holidays and business days API](https://apis.io/apis/africacompliancedata-com/africacompliancedata-com-holidays-and-business-days-api/) — All plans, including calendar feeds; the holiday watch from Developer up.
+- [africacompliancedata-com Private mode API](https://apis.io/apis/africacompliancedata-com/africacompliancedata-com-private-mode-api/) — Signed country-year bundles for computing on your own machine (the SDKs' private mode). Holiday parts on all plans; tax parts on Pro (countries of its pack)…
+- [africacompliancedata-com Public API](https://apis.io/apis/africacompliancedata-com/africacompliancedata-com-public-api/) — No key needed.
+- [africacompliancedata-com Tax data API](https://apis.io/apis/africacompliancedata-com/africacompliancedata-com-tax-data-api/) — Pro (countries of its pack) and Compliance plans; the finance-law digest is Compliance only.
+- [africacompliancedata-com Webhooks API](https://apis.io/apis/africacompliancedata-com/africacompliancedata-com-webhooks-api/) — Signed notifications when a country's data changes, and the change log (every changed value with its reason): Developer and Pro for holiday changes,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Africacompliancedata Com Webhooks](https://apis.io/asyncapis/africacompliancedata-com/africacompliancedata-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Africacompliancedata Com Agentic Access](https://apis.io/agentic-access/africacompliancedata-com/africacompliancedata-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Change](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-change/)
+- [ContributionPeriod](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-contribution-period/)
+- [CountryBundle](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-country-bundle/)
+- [PayrollTaxPeriod](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-payroll-tax-period/)
+- [RateOnDate](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-rate-on-date/)
+- [TaxIdRules](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-tax-id-rules/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Africacompliancedata Com Context](https://apis.io/jsonld/africacompliancedata-com/africacompliancedata-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [africacompliancedata-com API Rules](https://apis.io/rules/africacompliancedata-com/africacompliancedata-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Africacompliancedata Com Authentication](https://apis.io/security/africacompliancedata-com/africacompliancedata-com-authentication/)
+- [Africacompliancedata Com Domain Security](https://apis.io/security/africacompliancedata-com/africacompliancedata-com-domain-security/)
+- [Africacompliancedata Com Vulnerability Disclosure](https://apis.io/security/africacompliancedata-com/africacompliancedata-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Africacompliancedata Com Scopes](https://apis.io/scopes/africacompliancedata-com/africacompliancedata-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Africacompliancedata Com Plans Pricing](https://apis.io/plans/africacompliancedata-com/africacompliancedata-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Africacompliancedata Com Rate Limits](https://apis.io/rate-limits/africacompliancedata-com/africacompliancedata-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://africacompliancedata.com/)
+- [API reference](https://africacompliancedata.com/docs)
+- [Terms of service](https://africacompliancedata.com/terms)
+- [Privacy policy](https://africacompliancedata.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 60.1** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 71.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 46.8 |
+| Developer ergonomics | 32.6 |
+| Access clarity | 49.5 |
+
+**Agent readiness 49.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/africacompliancedata-com/](https://apis.io/providers/africacompliancedata-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for africacompliancedata-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/africacompliancedata-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
