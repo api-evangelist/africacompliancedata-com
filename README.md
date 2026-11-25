@@ -66,7 +66,7 @@
 
 Africa Compliance Data provides a public API and dataset covering holidays, business days, VAT rates, withholding tax, tax identification formats, filing deadlines, payroll tax and social‑security rates for all 54 African countries, sourced from official government publications and updated regularly.
 
-**Areas:** Africa · Compliance · Tax · Holidays · Data · API
+**Areas:** Africa · Compliance · Tax · Holidays · Data
 
 ## africacompliancedata-com on APIs.io
 
@@ -91,21 +91,34 @@ Event-driven and webhook contracts.
 
 - [Africacompliancedata Com Webhooks](https://apis.io/asyncapis/africacompliancedata-com/africacompliancedata-com-webhooks/)
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [africacompliancedata-com-mcp.yml](https://apis.io/servers/africacompliancedata-com/africacompliancedata-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Africacompliancedata Com Agentic Access](https://apis.io/agentic-access/africacompliancedata-com/africacompliancedata-com-agentic-access/)
+- [africacompliancedata-com Agentic Access](https://apis.io/agentic-access/africacompliancedata-com/africacompliancedata-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (13)
 
 The data models the API reads and writes.
 
 - [Change](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-change/)
 - [ContributionPeriod](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-contribution-period/)
 - [CountryBundle](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-country-bundle/)
+- [CountryPack](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-country-pack/)
+- [CountrySummary](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-country-summary/)
+- [Coverage](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-coverage/)
+- [DataRevision](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-data-revision/)
+- [EnvelopeBase](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-envelope-base/)
+- [Holiday](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-holiday/)
 - [PayrollTaxPeriod](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-payroll-tax-period/)
 - [RateOnDate](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-rate-on-date/)
+- [Source](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-source/)
 - [TaxIdRules](https://apis.io/schemas/africacompliancedata-com/africacompliancedata-com-tax-id-rules/)
 
 #### JSON-LD (1)
@@ -124,27 +137,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Africacompliancedata Com Authentication](https://apis.io/security/africacompliancedata-com/africacompliancedata-com-authentication/)
-- [Africacompliancedata Com Domain Security](https://apis.io/security/africacompliancedata-com/africacompliancedata-com-domain-security/)
-- [Africacompliancedata Com Vulnerability Disclosure](https://apis.io/security/africacompliancedata-com/africacompliancedata-com-vulnerability-disclosure/)
+- [africacompliancedata-com Authentication](https://apis.io/security/africacompliancedata-com/africacompliancedata-com-authentication/)
+- [africacompliancedata-com Domain Security](https://apis.io/security/africacompliancedata-com/africacompliancedata-com-domain-security/)
+- [africacompliancedata-com Vulnerability Disclosure](https://apis.io/security/africacompliancedata-com/africacompliancedata-com-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Africacompliancedata Com Scopes](https://apis.io/scopes/africacompliancedata-com/africacompliancedata-com-scopes/)
+- [africacompliancedata-com Scopes](https://apis.io/scopes/africacompliancedata-com/africacompliancedata-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Africacompliancedata Com Plans Pricing](https://apis.io/plans/africacompliancedata-com/africacompliancedata-com-plans-pricing/)
+- [africacompliancedata-com Plans Pricing](https://apis.io/plans/africacompliancedata-com/africacompliancedata-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Africacompliancedata Com Rate Limits](https://apis.io/rate-limits/africacompliancedata-com/africacompliancedata-com-rate-limits/)
+- [africacompliancedata-com Rate Limits](https://apis.io/rate-limits/africacompliancedata-com/africacompliancedata-com-rate-limits/)
 
 ## Where to find this API
 
@@ -157,23 +170,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 60.1** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 57.0** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 71.2 |
-| Contract governance | 79.1 |
-| Operational transparency | 46.8 |
-| Developer ergonomics | 32.6 |
-| Access clarity | 49.5 |
+| Discoverability | 81.7 |
+| Contract quality | 74.3 |
+| Contract governance | 35.6 |
+| Operational transparency | 45.2 |
+| Developer ergonomics | 28.0 |
+| Access clarity | 57.4 |
 
-**Agent readiness 49.1** — agent-ready (gated down from agent-native)
+**Agent readiness 44.9** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -181,9 +194,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Error Semantics | verified |
 | OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
-| Event Surface Described | unknown |
-| Agent Skills | unknown |
-| Well Known Catalog | — |
+| Event Surface Described | yes |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -193,6 +206,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
 
